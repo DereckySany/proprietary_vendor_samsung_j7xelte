@@ -140,7 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/hw/gatekeeper.exynos7870.so:system/lib/hw/gatekeeper.exynos7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/j7xelte/proprietary/lib/hw/keystore.exynos7870.so:system/lib/hw/keystore.exynos7870.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j7xelte/proprietary/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
