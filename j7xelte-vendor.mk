@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/bin/prepare_param.sh:system/bin/prepare_param.sh \
     vendor/samsung/j7xelte/proprietary/etc/ca.pem:system/etc/ca.pem \
     vendor/samsung/j7xelte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
+    vendor/samsung/j7xelte/proprietary/etc/plmn_delta_hktw.bin:system/etc/plmn_delta_hktw.bin \
     vendor/samsung/j7xelte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/j7xelte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/j7xelte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
