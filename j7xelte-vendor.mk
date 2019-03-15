@@ -168,5 +168,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/priv-app/Ds/Ds.apk:system/priv-app/Ds/Ds.apk \
     vendor/samsung/j7xelte/proprietary/priv-app/DsUI/DsUI.apk:system/priv-app/DsUI/DsUI.apk \
     vendor/samsung/j7xelte/proprietary/etc/ds1-default.xml:system/etc/ds1-default.xml \
-    vendor/samsung/j7xelte/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml \
-
+    vendor/samsung/j7xelte/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml
