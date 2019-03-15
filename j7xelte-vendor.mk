@@ -165,7 +165,25 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:system/vendor/lib/libstagefright_soft_ac4dec.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/soundfx/libdseffect.so:system/vendor/lib/soundfx/libdseffect.so \
     vendor/samsung/j7xelte/proprietary/framework/dolby_ds.jar:system/framework/dolby_ds.jar \
-    vendor/samsung/j7xelte/proprietary/priv-app/Ds/Ds.apk:system/priv-app/Ds/Ds.apk \
-    vendor/samsung/j7xelte/proprietary/priv-app/DsUI/DsUI.apk:system/priv-app/DsUI/DsUI.apk \
     vendor/samsung/j7xelte/proprietary/etc/ds1-default.xml:system/etc/ds1-default.xml \
     vendor/samsung/j7xelte/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Ds
+LOCAL_SRC_FILES := vendor/samsung/j7xelte/proprietary/priv-app/Ds/Ds.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := DsUI
+LOCAL_SRC_FILES := vendor/samsung/j7xelte/proprietary/priv-app/DsUI/DsUI.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
