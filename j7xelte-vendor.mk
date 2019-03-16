@@ -168,6 +168,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/ds1-default.xml:system/etc/ds1-default.xml \
     vendor/samsung/j7xelte/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml
 
+# Prebuilt APK's
+PRODUCT_PACKAGES += \
+Ds \
+DsUI
+
 ## NFC
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc \
