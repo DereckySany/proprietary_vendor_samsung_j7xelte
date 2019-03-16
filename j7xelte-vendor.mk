@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
 
 ## Dolby Atmos
+include $(LOCAL_PATH)/apps/Android.mk
 PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
     vendor/samsung/j7xelte/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:system/vendor/lib/libstagefright_soft_ac4dec.so \
