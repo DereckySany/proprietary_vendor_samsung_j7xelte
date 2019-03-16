@@ -19,7 +19,7 @@ ifeq ($(TARGET_DEVICE),j7xelte)
 # Dolby Atmos
 include $(CLEAR_VARS)
 LOCAL_MODULE := Ds
-LOCAL_SRC_FILES := apps/Ds/Ds.apk
+LOCAL_SRC_FILES := apps/Ds.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
