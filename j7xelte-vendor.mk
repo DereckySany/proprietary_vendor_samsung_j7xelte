@@ -169,9 +169,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml
 
 # Prebuilt APK's
-PRODUCT_PACKAGES += \
-Ds \
-DsUI
+PRODUCT_PACKAGES += Ds
+PRODUCT_PACKAGES += DsUI
 
 ## NFC
 PRODUCT_COPY_FILES += \
