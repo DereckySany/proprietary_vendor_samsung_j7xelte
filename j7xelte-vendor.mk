@@ -170,7 +170,7 @@ PRODUCT_COPY_FILES += \
 
 ## NFC
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc
+    vendor/samsung/j7xelte/proprietary/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc \
     vendor/samsung/j7xelte/proprietary/vendor/firmware/nfc/sec_s3nrn80_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn80_firmware.bin \
     vendor/samsung/j7xelte/proprietary/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so:system/vendor/lib/hw/vendor.samsung.hardware.nfc@1.0-impl.so \
     vendor/samsung/j7xelte/proprietary/etc/nfc/THL/sec_s3nrn80_rfreg.bin:system/etc/nfc/THL/sec_s3nrn80_rfreg.bin \
