@@ -141,7 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/lib/hw/gatekeeper.exynos7870.so:system/lib/hw/gatekeeper.exynos7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/j7xelte/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    vendor/samsung/j7xelte/proprietary/lib/hw/keystore.exynos7870.so:system/lib/hw/keystore.exynos7870.so \
     vendor/samsung/j7xelte/proprietary/lib/hw/memtrack.exynos5.so:system/lib/hw/memtrack.exynos5.so \
     vendor/samsung/j7xelte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/j7xelte/proprietary/lib/libexynosdisplay.so:system/lib/libexynosdisplay.so \
@@ -180,4 +180,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/etc/nfc/THL/sec_s3nrn80_rfreg.bin:system/etc/nfc/THL/sec_s3nrn80_rfreg.bin \
     vendor/samsung/j7xelte/proprietary/etc/nfc/sec_s3nrn80_rfreg.bin:system/etc/nfc/sec_s3nrn80_rfreg.bin \
     vendor/samsung/j7xelte/proprietary/vendor/lib/vendor.samsung.hardware.nfc@1.0.so:system/vendor/lib/vendor.samsung.hardware.nfc@1.0.so \
-    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service 
+    vendor/samsung/j7xelte/proprietary/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service:system/vendor/bin/hw/vendor.samsung.hardware.nfc@1.0-service \
+    vendor/samsung/j7xelte/proprietary/lib/hw/nfc_nci.universal7870.so:system/lib/hw/nfc_nci.universal7870.so
