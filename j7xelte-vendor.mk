@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j7xelte/proprietary/framework/dolby_ds.jar:system/framework/dolby_ds.jar \
     vendor/samsung/j7xelte/proprietary/etc/ds1-default.xml:system/etc/ds1-default.xml \
     vendor/samsung/j7xelte/proprietary/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml \
-    vendor/samsung/j7xelte/proprietary/addon.d/01Permissive.sh:system/addon.d/01Permissive.sh
+    vendor/samsung/j7xelte/proprietary/su.d/01Permissive.sh:system/su.d/01Permissive.sh
 
 # Prebuilt APK's
 PRODUCT_PACKAGES += Ds
